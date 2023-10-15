@@ -1,0 +1,18 @@
+.aside {
+  background-color: #fff;
+}
+.toggle {
+  display: flex;
+  padding-left: 15px;
+  gap: 15px;
+
+  transition: all 0.5s;
+}
+.link {
+  display: flex;
+  padding: 10px 15px;
+  gap: 15px;
+  margin-left: -40px;
+
+  transition: all 0.5s;
+}

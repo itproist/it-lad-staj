@@ -1,0 +1,58 @@
+.root {
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #dedede;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.field {
+  margin-bottom: 20px !important;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.button {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #215695;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.passwordrl {
+  position: relative;
+}
+
+.passwordab {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.password {
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+
+.auth_auth {
+  height: 50px;
+  background-color: #215695;
+}
+
+.auth_img {
+  width: 90px;
+  padding-left: 10px;
+}

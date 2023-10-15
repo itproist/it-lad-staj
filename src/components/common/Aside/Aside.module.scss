@@ -1,0 +1,46 @@
+/* Общие стили для всех устройств */
+
+.sider {
+  grid-area: sider;
+}
+
+.img {
+  background-color: #fff;
+  margin: 0 0 0 26px;
+}
+
+/* Стили для мобильных устройств */
+
+@media only screen and (max-width: 480px) {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Стили для планшетных устройств */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Стили для настольных устройств */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+/* Стили для устройств с высоким разрешением (ретина) */
+
+@media only screen and (min-width: 1025px) {
+  .img {
+    width: 300px;
+    height: 250px;
+  }
+}

@@ -1,0 +1,58 @@
+.root {
+  position: relative;
+  margin: 30px 0;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.button_button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.editButtons {
+  position: absolute;
+  right: 0;
+  padding: 15px;
+  display: flex;
+}
+
+.imgimgimg {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.tags {
+  list-style-type: none;
+  padding-top: 50px;
+  margin-right: -50px;
+}
+
+.testtesttest {
+  padding-left: 25px;
+}
+
+.wrapper {
+  padding-top: 90px;
+}
+
+.postDetails {
+  display: flex;
+  width: 55px;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.avto {
+  display: flex;
+  justify-content: center;
+}
+
+.infoinfo {
+  padding-top: 50px;
+}
