@@ -51,7 +51,7 @@ const postsSlice = createSlice({
         state.tags.status = 'error';
       })
       .addCase(fetchRemovePost.pending, (state, action) => {
-        state.posts.items = state.posts.items.filter((obj) => obj._id !== action.meta.arg);
+        state.posts.items = state.posts.items.filter((obj: any) => obj._id !== action.meta.arg);
       });
   },
 });
